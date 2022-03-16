@@ -1,3 +1,7 @@
+// Youtube URL: https://youtu.be/Gj3UyafbSlQ
+// This is the code presented in the URL above.
+// The reading order is easier if you follow the numbers in the file.
+
 /// How to set up the AppBar.（AppBar を設定する方法）
 import 'package:flutter/material.dart';
 
