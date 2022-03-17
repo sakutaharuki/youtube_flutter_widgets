@@ -1,3 +1,7 @@
+// Youtube URL: 
+// This is the code presented in the URL above.
+// The reading order is easier if you follow the numbers in the file.
+
 /// Container is a useful widget that combines common painting, positioning, and sizing widgets.
 /// （Container は一般的なペイント、ポジショニング、サイズ設定ウィジェットを組み合わせた便利なウィジェット）
 import 'package:flutter/material.dart';
