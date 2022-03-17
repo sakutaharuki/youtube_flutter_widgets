@@ -1,3 +1,7 @@
+// Youtube URL: 
+// This is the code presented in the URL above.
+// The reading order is easier if you follow the numbers in the file.
+
 /// To implement a basic Material Design visual layout structure.
 /// （基本的なマテリアルデザインのビジュアルレイアウト構造を実装するためのもの）
 /// This class providers APIs for displaying drawers, snack bars, and bottom sheets.
