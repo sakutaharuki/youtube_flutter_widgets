@@ -1,3 +1,7 @@
+// Youtube URL: 
+// This is the code presented in the URL above.
+// The reading order is easier if you follow the numbers in the file.
+
 /// How to display widgets in the middle.
 /// （ウィジェットを真ん中に表示する方法）
 import 'package:flutter/material.dart';
