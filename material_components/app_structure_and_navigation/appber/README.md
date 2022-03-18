@@ -14,7 +14,8 @@ By the way, [Youtube](https://www.youtube.com/channel/UCCzS-jNyzsQdeSylkcM4iLw) 
 [Watch the video](https://youtu.be/2lg7GyY05wA)
 
 ### Point
-- Setting location is in Scaffold
+- The action on the left is leading
+- The action on the right is actions
 
 # AppBar（日本語版）
 僕のGithubに来てくれてありがとう！
@@ -32,4 +33,5 @@ By the way, [Youtube](https://www.youtube.com/channel/UCCzS-jNyzsQdeSylkcM4iLw) 
 [動画を視聴する](https://youtu.be/2lg7GyY05wA)
 
 ### ポイント
-- 左側のアクションは 
+- 左側のアクションは leading
+- 右側のアクションは actions 
