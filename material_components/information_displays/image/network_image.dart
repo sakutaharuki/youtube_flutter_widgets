@@ -1,3 +1,7 @@
+// Youtube URL: 
+// This is the code presented in the URL above.
+// The reading order is easier if you follow the numbers in the file.
+
 import 'package:flutter/material.dart';
 
 /// How to display images from the Internet.
