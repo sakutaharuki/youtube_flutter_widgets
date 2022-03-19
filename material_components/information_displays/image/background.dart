@@ -1,6 +1,5 @@
 // Youtube URL: https://youtu.be/4WRKOZFG7Dc
 // This is the code presented in the URL above.
-// The reading order is easier if you follow the numbers in the file.
 
 /// How to make the background an image（背景を画像にする方法）
 /// First, create a file called images and make it available in pubspec.yaml. (the pubspec.yaml file is listed)
