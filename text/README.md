@@ -14,7 +14,7 @@ By the way, [Youtube](https://www.youtube.com/channel/UCCzS-jNyzsQdeSylkcM4iLw) 
   
 ### Point  
 - It's a lot easier if you design it first!
-- 長文などにおすすめです！
+- I recommend it for long sentences, etc.!
   
 # テキスト（日本語版）  
 僕のGithubに来てくれてありがとう！  
