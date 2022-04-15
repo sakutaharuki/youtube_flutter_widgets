@@ -43,6 +43,8 @@ class MyHomePage extends StatelessWidget {
             image: AssetImage('images/image1.jpg'),
             fit: BoxFit.cover,
           ),
+          // これでも可
+          child: Image.asset('images/sample.jpg'),
         ),
       ),
     );
