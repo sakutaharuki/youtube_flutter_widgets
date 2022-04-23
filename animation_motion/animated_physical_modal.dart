@@ -1,3 +1,7 @@
+// Youtube URL: 
+// This is the code presented in the URL above.  
+// （上記URLで紹介されているコードです。）
+
 import 'package:flutter/material.dart';
 
 /// How to add shadows in animation.
@@ -72,6 +76,10 @@ class _MyHomePage extends State<MyHomePage> {
     );
   }
 }
+
+// Youtube URL: 
+// This is the code presented in the URL above.  
+// （上記URLで紹介されているコードです。）
 
 /// How to change color in animation.
 /// アニメーションで色と形を変更する方法
