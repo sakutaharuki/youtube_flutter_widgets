@@ -5,7 +5,7 @@
 import 'package:flutter/material.dart';
 
 /// Basic method of animating widgets.
-/// ウィジェットにアニメーションをつける基本の方法
+/// アニメーションを常に動かす方法
 void main() {
   runApp(const MyApp());
 }
@@ -37,11 +37,17 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePage extends State<MyHomePage> with TickerProviderStateMixin {
   final DecorationTween decorationTween = DecorationTween(
+    /// Specify first design.
+    /// 最初のデザインを指定
     begin: BoxDecoration(
-      color: const Color(0xFFFFFFFF),
+      /// Specify color
+      /// 色を指定
+      color: const Color(0xFFFF0000),
       border: Border.all(style: BorderStyle.none),
       borderRadius: BorderRadius.circular(60.0),
       boxShadow: const <BoxShadow>[
+        /// Shadow designation
+        /// 影の指定　ここら辺は全部黒
         BoxShadow(
           color: Color(0x66666666),
           blurRadius: 10.0,
@@ -50,13 +56,20 @@ class _MyHomePage extends State<MyHomePage> with TickerProviderStateMixin {
         )
       ],
     ),
+
+    /// Specify finish design.
+    /// 最後のデザインを指定
     end: BoxDecoration(
+      /// Specify color
+      /// 色を指定
       color: const Color(0xFFFFFFFF),
       border: Border.all(
         style: BorderStyle.none,
       ),
+
+      /// Corner Designation
+      /// 角のデザインの指定
       borderRadius: BorderRadius.zero,
-      // No shadow.
     ),
   );
 
@@ -79,8 +92,8 @@ class _MyHomePage extends State<MyHomePage> with TickerProviderStateMixin {
         child: DecoratedBoxTransition(
           decoration: decorationTween.animate(_controller),
           child: Container(
-            width: 200,
-            height: 200,
+            width: 300,
+            height: 300,
             padding: const EdgeInsets.all(10),
             child: const FlutterLogo(),
           ),
