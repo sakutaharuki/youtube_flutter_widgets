@@ -47,7 +47,7 @@ class _MyHomePage extends State<MyHomePage> with TickerProviderStateMixin {
       borderRadius: BorderRadius.circular(60.0),
       boxShadow: const <BoxShadow>[
         /// Shadow designation
-        /// 影の指定　ここら辺は全部黒
+        /// 影の指定
         BoxShadow(
           color: Color(0x66666666),
           blurRadius: 10.0,
