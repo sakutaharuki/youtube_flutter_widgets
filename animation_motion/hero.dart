@@ -4,8 +4,8 @@
 
 import 'package:flutter/material.dart';
 
-/// .
-///
+/// How to enlarge only the icons for easier viewing.
+/// アイコンだけ見やすく拡大する方法
 void main() {
   runApp(const MyApp());
 }
@@ -46,17 +46,20 @@ class _MyHomePage extends State<MyHomePage> {
         ),
         ListTile(
           leading: Hero(
+            /// This tag is important.
+            /// このタグが重要
             tag: 'hero-rectangle',
             child: _blueRectangle(const Size(50, 50)),
           ),
           onTap: () => _gotoDetailsPage(context),
-          title:
-              const Text('Tap on the icon to view hero animation transition.'),
+          title: const Text('アイコンをタップで\nヒーローアニメーション'),
         ),
       ],
     );
   }
 
+  /// Widget to enlarge for easy viewing.
+  /// 見やすく拡大するウィジェット
   Widget _blueRectangle(Size size) {
     return Container(
       width: size.width,
@@ -65,6 +68,8 @@ class _MyHomePage extends State<MyHomePage> {
     );
   }
 
+  /// Icons are displayed in large size.
+  /// アイコンが大きく表示される
   void _gotoDetailsPage(BuildContext context) {
     Navigator.of(context).push(MaterialPageRoute<void>(
       builder: (BuildContext context) => Scaffold(
