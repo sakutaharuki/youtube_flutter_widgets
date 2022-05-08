@@ -4,8 +4,8 @@
 
 import 'package:flutter/material.dart';
 
-/// .
-///
+/// How to create an animation where the widget slides to go and back..
+/// ウィジェットが行って戻ってくるスライドをするアニメーションを作る方法
 void main() {
   runApp(const MyApp());
 }
@@ -36,6 +36,8 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePage extends State<MyHomePage> with TickerProviderStateMixin {
+  /// Animation setting.
+  /// アニメーションの設定
   late final AnimationController _controller = AnimationController(
     duration: const Duration(seconds: 2),
     vsync: this,
