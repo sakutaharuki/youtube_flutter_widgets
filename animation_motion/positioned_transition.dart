@@ -4,8 +4,8 @@
 
 import 'package:flutter/material.dart';
 
-/// .
-///
+/// How to move a position forever as if it were alive.
+/// 位置を生きているかのように永遠と動かす方法
 void main() {
   runApp(const MyApp());
 }
@@ -57,6 +57,8 @@ class _MyHomePage extends State<MyHomePage> with TickerProviderStateMixin {
         final Size biggest = constraints.biggest;
         return Stack(
           children: <Widget>[
+            /// Animation setting.
+            /// アニメーションの設定
             PositionedTransition(
               rect: RelativeRectTween(
                 begin: RelativeRect.fromSize(
