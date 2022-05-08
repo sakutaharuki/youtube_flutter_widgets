@@ -4,8 +4,8 @@
 
 import 'package:flutter/material.dart';
 
-/// .
-///
+/// How to rotate widgets with animation.
+/// アニメーションでウィジェットを回転させる方法
 void main() {
   runApp(const MyApp());
 }
@@ -36,6 +36,8 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePage extends State<MyHomePage> with TickerProviderStateMixin {
+  /// Animation setting.
+  /// アニメーションの設定
   late final AnimationController _controller = AnimationController(
     duration: const Duration(seconds: 2),
     vsync: this,
