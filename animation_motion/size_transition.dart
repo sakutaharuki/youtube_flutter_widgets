@@ -4,8 +4,8 @@
 
 import 'package:flutter/material.dart';
 
-/// .
-///
+/// How to gradually display the visible part of the animation.
+/// アニメーションで見える所を徐々に表示する方法
 void main() {
   runApp(const MyApp());
 }
@@ -36,6 +36,8 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePage extends State<MyHomePage> with TickerProviderStateMixin {
+  /// Animation setting
+  /// アニメーションの設定
   late final AnimationController _controller = AnimationController(
     duration: const Duration(seconds: 3),
     vsync: this,
