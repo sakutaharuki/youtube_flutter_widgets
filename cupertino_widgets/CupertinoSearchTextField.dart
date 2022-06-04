@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.yellow,
       ),
       home: Scaffold(
-        appBar: AppBar(title: const Text('CupertinoScrollbar')),
+        appBar: AppBar(title: const Text('CupertinoSearchTextField')),
         body: const MyHomePage(),
       ),
     );
