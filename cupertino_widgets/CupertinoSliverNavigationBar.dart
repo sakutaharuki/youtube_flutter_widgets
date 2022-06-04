@@ -7,7 +7,6 @@ import 'package:flutter/material.dart';
 
 /// How to use a large title navigation bar with slivers in Apple's design.
 /// Appleのデザインのスライバーを使用した大きなタイトルのナビゲーションバー使う方法
-//
 void main() {
   runApp(const MyApp());
 }
