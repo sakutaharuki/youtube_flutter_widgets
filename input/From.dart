@@ -1,4 +1,7 @@
-https://youtu.be/FtSPyKX8rNA
+// Youtube URL: https://youtu.be/FtSPyKX8rNA
+// This is the code presented in the URL above.
+// （上記URLで紹介されているコードです。）
+
 
 import 'package:flutter/material.dart';
 
